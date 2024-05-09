@@ -9,14 +9,14 @@ $games = Prod::create('/games_db.json', 'Games');
 $accessories = Prod::create('/accessory_db.json', 'Accessories');
 ?>
 
-<div class="class3Hero  d-flex align-items-center justify-content-center">
-    <div class="content d-flex flex-column align-items-center justify-content-center">
+<div class="class3Hero d-flex align-items-center justify-content-center">
+    <div class="container content d-flex flex-column align-items-center justify-content-center">
         <div class="logo d-flex align-items-center justify-content-center ">
             <img src="https://images.vexels.com/media/users/3/237180/isolated/preview/888bef446c00874a98cd7614630a3d48-simple-fish-in-fish-tank-doodle.png"
                 alt="Immagine logo">
             <h1>Zoolean</h1>
         </div>
-        <h2> Scopri, Scegli, Sorridi: il tuo e-shop per ogni animale!</h2>
+        <h2 class="text-center"> Scopri, Scegli, Sorridi: il tuo e-shop per ogni animale!</h2>
         <h6>Scopri il nostro mondo a misura di acquari e animali</h6>
         <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Ricerca un prodotto" aria-label="Search">
@@ -26,7 +26,7 @@ $accessories = Prod::create('/accessory_db.json', 'Accessories');
 </div>
 
 
-<main id="app" class="class3Main">
+<main id="app">
 
     <!-- food section -->
     <section class="container">

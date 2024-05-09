@@ -1,22 +1,61 @@
-/* HEADER */
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
 }
+ul,
+li {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
 
+/* GENERAL */
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
   background-color: white;
+  color: #212529;
+}
+
+/* HEADER */
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 10;
+}
+nav ul a li {
+    display: flex;
+    align-items: center;
+  height: 100%;
+  font-weight: 700;
+  color: #212529;
+  margin: 0 10px;
+  padding: 15px 5px;
+  border-bottom: 3px solid transparent;
+}
+nav ul.icons a li {
+  font-size: 1.4rem;
+}
+nav ul a li:hover {
+  color: #015cb8;
+  border-bottom: 3px solid #015cb8;
+  transition-duration: 0.3s;
 }
 
 /* HERO */
 .class3Hero {
   position: relative;
   height: 700px;
-  width: 100%;
   overflow: hidden;
 }
 .class3Hero video {
@@ -41,17 +80,17 @@ body {
   -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 .class3Hero .content h2 {
-  font-size: 3rem;
+  font-size: 2.9rem;
   font-weight: 700;
 }
 .class3Hero .content form {
-    margin-top: 10px;
+  margin-top: 10px;
   width: 100%;
   max-width: 500px;
 }
 .class3Hero .content form input {
-    font-size: 1.2rem;
-    padding: 12px 20px;
+  font-size: 1.2rem;
+  padding: 12px 20px;
 }
 .class3Hero .logo img {
   margin-right: 30px;

@@ -26,32 +26,43 @@
 </head>
 
 <body>
-    
-    <nav class="class3Navbar">
-        <ul class="d-flex">
-            <a href="#">
-                <li class="class3List">Cani</li>
-            </a>
-            <a href="#">
-                <li class="class3List">Gatti</li>
-            </a>
-            <a href="#">
-                <li class="class3List">Pesci</li>
-            </a>
-            <a href="#">
-                <li class="class3List">Uccelli</li>
-            </a>
-        </ul>
-        <ul class="d-flex justify-content-end align-items-center">
-            <a href="#">
-                <li class="class3List"><i class="fa-solid fa-heart  "></i></li>
-            </a>
-            <a href="#">
-                <li class="class3List"><i class="fa-regular fa-user "></i></li>
-            </a>
-            <a href="#">
-                <li class="class3List"><i class="fa-solid fa-bag-shopping"></i></li>
-            </a>
-        </ul>
+    <header>
+        <nav class="h-100 d-flex justify-content-between">
+            <ul class="d-flex">
+                <a href="#">
+                    <li>Offerte</li>
+                </a>
+                <a href="#">
+                    <li>Cibi</li>
+                </a>
+                <a href="#">
+                    <li>Giochi</li>
+                </a>
+                <a href="#">
+                    <li>Accessori</li>
+                </a>
+                <a href="#">
+                    <li>Chi siamo</li>
+                </a>
+                <a href="#">
+                    <li>Contatti</li>
+                </a>
+                <a href="#">
+                    <li>Punti vendita</li>
+                </a>
+            </ul>
+            <ul class="icons d-flex">
+                <a href="#">
+                    <li><i class="fa-regular fa-user "></i></li>
+                </a>
+                <a href="#">
+                    <li><i class="fa-solid fa-heart  "></i></li>
+                </a>
 
-    </nav>
+                <a href="#">
+                    <li><i class="fa-solid fa-cart-shopping"></i></li>
+                </a>
+            </ul>
+
+        </nav>
+    </header>
