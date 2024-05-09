@@ -19,7 +19,7 @@ a {
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
-  background-color: white;
+  background-color: #f3f3f3;
   color: #212529;
 }
 
@@ -34,8 +34,8 @@ header {
   z-index: 10;
 }
 nav ul a li {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
   height: 100%;
   font-weight: 700;
   color: #212529;
@@ -54,6 +54,7 @@ nav ul a li:hover {
 
 /* HERO */
 .class3Hero {
+  padding-top: 60px;
   position: relative;
   height: 700px;
   overflow: hidden;
@@ -96,6 +97,69 @@ nav ul a li:hover {
   margin-right: 30px;
   width: 200px;
   filter: invert(1);
+}
+
+/* MAIN */
+main#app {
+  padding: 20px 0;
+}
+main#app section {
+  padding: 100px 0;
+}
+main#app section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+main#app section.even {
+  color: black;
+  background-color: #006dda;
+}
+main#app section a {
+  width: calc(100% / 4 - 20px);
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+main#app section .card {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+}
+main#app section .card:hover {
+  color: #015cb8;
+  transition-duration: 0.3s;
+}
+main#app section .card:hover .container-img img {
+  filter: opacity(0.8);
+  transition-duration: 0.3s;
+}
+main#app section .card .container-img {
+  background-color: white;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 4px 5px 0px rgb(0 0 0 / 14%);
+}
+main#app section .card .container-img img {
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+main#app section .card .card-body h5.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: -1px;
+}
+main#app section .card .card-body p.info {
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1;
+}
+main#app section .card .card-body span.price {
+  color: #015cb8;
+  font-weight: 600;
+}
+main#app section.even .card .card-body span.price,
+main#app section.even .card .card-body {
+  color: white;
 }
 
 /* FOOTER */

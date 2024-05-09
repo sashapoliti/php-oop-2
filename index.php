@@ -14,7 +14,7 @@ $accessories = Prod::create('/accessory_db.json', 'Accessories');
         <div class="logo d-flex align-items-center justify-content-center ">
             <img src="https://images.vexels.com/media/users/3/237180/isolated/preview/888bef446c00874a98cd7614630a3d48-simple-fish-in-fish-tank-doodle.png"
                 alt="Immagine logo">
-            <h1>Zoolean</h1>
+            <h1>ZOOlean</h1>
         </div>
         <h2 class="text-center"> Scopri, Scegli, Sorridi: il tuo e-shop per ogni animale!</h2>
         <h6>Scopri il nostro mondo a misura di acquari e animali</h6>
@@ -29,70 +29,96 @@ $accessories = Prod::create('/accessory_db.json', 'Accessories');
 <main id="app">
 
     <!-- food section -->
-    <section class="container">
-        <h2 class="text-center fs-1 mb-5">Cibo per animali</h2>
-        <div class="row">
-            <?php foreach ($foods as $food): ?>
-                <div class="col-4">
-                    <div class="card class3Card mb-3">
-                        <img class="class3CardImg" src="<?= $food->image ?>" class="class3CardImg" alt="<?= $food->name ?>">
-                        <div class="class3CardBody">
-                            <h5 class="card-title fs-3"><?= $food->name ?></h5>
-                            <p class="card-text fw-bolder"><?= $food->description ?></p>
-                            <p class="card-text fs-3"><?= $food->category->name ?></p>
-                            <p class="card-text fs-2"><i class="<?= $food->category->icon ?>"></i></p>
-                            <button @click="addToCart(<?= $food->id ?>, '/foods_db.json')"
-                                class="btn btn-primary class3Button">
-                                Aggiungi</button>
+    <section>
+        <div class="container">
+            <h2 class="text-center mb-5 "><i class="fa-solid fa-bowl-food"></i> Cibo per animali</h2>
+            <div class="card-container d-flex flex-wrap">
+                <?php foreach ($foods as $food): ?>
+                    <a href="#" @click.prevent="addToCart(<?= $food->id ?>, '/foods_db.json')">
+                        <div class="card">
+                            <div class="container-img">
+                                <img class="card-img-top" src="<?= $food->image ?>" alt="<?= $food->name ?>">
+                            </div>
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <h5 class="card-title"><i class="<?= $food->category->icon ?>"></i> <?= $food->name ?>
+                                    </h5>
+                                    <p class="info">
+                                        <?php foreach ($food->ingredients as $ingredient) {
+                                            echo $ingredient . ', ';
+                                        } ?> |
+                                        <?= $food->weight ?> | <?= $food->format ?>
+                                    </p>
+                                </div>
+                                <p class="card-text"><?= $food->description ?></p>
+                                <span class="price"><?= $food->price ?>€</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            <?php endforeach; ?>
+                    </a>
+                <?php endforeach; ?>
+            </div>
         </div>
     </section>
 
     <!-- toys section -->
-    <section class="container">
-        <h2 class="text-center fs-1 mb-5">Giochi per animali</h2>
-        <div class="row">
-            <?php foreach ($games as $game): ?>
-                <div class="col-4">
-                    <div class="card class3Card mb-3">
-                        <img class="class3CardImg" src="<?= $game->image ?>" class="class3CardImg" alt="<?= $game->name ?>">
-                        <div class="class3CardBody">
-                            <h5 class="card-title fs-3"><?= $game->name ?></h5>
-                            <p class="card-text fw-bolder"><?= $game->description ?></p>
-                            <p class="card-text fs-3"><?= $game->category->name ?></p>
-                            <p class="card-text fs-2"><i class="<?= $game->category->icon ?>"></i></p>
-                            <button @click="addToCart(<?= $game->id ?>, '/games_db.json')"
-                                class="btn btn-primary class3Button">Aggiungi</button>
+    <section class="even">
+        <div class="container">
+            <h2 class="text-center mb-5 "><i class="fa-solid fa-football"></i> Giochi per animali</h2>
+            <div class="card-container d-flex flex-wrap">
+                <?php foreach ($games as $game): ?>
+                    <a href="#" @click.prevent="addToCart(<?= $game->id ?>, '/games_db.json')">
+                        <div class="card">
+                            <div class="container-img">
+                                <img class="card-img-top" src="<?= $game->image ?>" alt="<?= $game->name ?>">
+                            </div>
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <h5 class="card-title"><i class="<?= $game->category->icon ?>"></i> <?= $game->name ?>
+                                    </h5>
+                                    <p class="info">
+                                        <?= $game->material ?> | <?= $game->size ?>
+                                    </p>
+                                </div>
+                                <p class="card-text"><?= $game->description ?></p>
+                                <span class="price"><?= $game->price ?>€</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            <?php endforeach; ?>
+                    </a>
+                <?php endforeach; ?>
+            </div>
         </div>
     </section>
 
     <!-- accessories section -->
-    <section class="container">
-        <h2 class="text-center fs-1 mb-5">Giochi per animali</h2>
-        <div class="row">
-            <?php foreach ($accessories as $accessory): ?>
-                <div class="col-4">
-                    <div class="card class3Card mb-3">
-                        <img class="class3CardImg" src="<?= $accessory->image ?>" class="class3CardImg"
-                            alt="<?= $accessory->name ?>">
-                        <div class="class3CardBody">
-                            <h5 class="card-title fs-3"><?= $accessory->name ?></h5>
-                            <p class="card-text fw-bolder"><?= $accessory->description ?></p>
-                            <p class="card-text fs-3"><?= $accessory->category->name ?></p>
-                            <p class="card-text fs-2"><i class="<?= $accessory->category->icon ?>"></i></p>
-                            <button @click="addToCart(<?= $accessory->id ?>, '/accessory_db.json')"
-                                class="btn btn-primary class3Button">Aggiungi</button>
+    <section>
+        <div class="container">
+            <h2 class="text-center mb-5 "><i class="fa-solid fa-hat-wizard"></i> Accessori per animali</h2>
+            <div class="card-container d-flex flex-wrap">
+                <?php foreach ($accessories as $accessory): ?>
+                    <a href="#" @click.prevent="addToCart(<?= $accessory->id ?>, '/accessory_db.json')">
+                        <div class="card">
+                            <div class="container-img">
+                                <img class="card-img-top" src="<?= $accessory->image ?>" alt="<?= $accessory->name ?>">
+                            </div>
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <div>
+                                    <h5 class="card-title"><i class="<?= $accessory->category->icon ?>"></i>
+                                        <?= $accessory->name ?>
+                                    </h5>
+                                    <p class="info">
+                                        <?php foreach ($accessory->materials as $material) {
+                                            echo $material . ', ';
+                                        } ?> |
+                                        <?= $accessory->weight ?> |
+                                    </p>
+                                </div>
+                                <p class="card-text"><?= $accessory->description ?></p>
+                                <span class="price"><?= $accessory->price ?>€</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            <?php endforeach; ?>
+                    </a>
+                <?php endforeach; ?>
+            </div>
         </div>
     </section>
 

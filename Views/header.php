@@ -19,9 +19,11 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- Axios -->
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="https://www.shutterstock.com/image-vector/handdrawn-cartoon-doodle-blue-letter-260nw-2391135651.jpg">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" type="text/javascript" defer></script>
-    <title>Zoolean</title>
+    <title>ZOOlean</title>
 
 </head>
 
