@@ -1,5 +1,8 @@
-<footer class="padding-50">
-        <div class="column container-big d-flex justify-content-around margin-bottom-30">
+<footer>
+    <div class="contact d-flex justify-content-center align-items-center ">
+        <span><i class="fa-regular fa-circle-question"></i> Serve aiuto? <a href="#">Contattaci</a> </span>
+    </div>
+        <div class="container d-flex justify-content-around margin-bottom-30">
             <ul>
                 <li class="padding-bottom-50 text-white"><strong>PetShop</strong></li>
                 <li>Applicazioni Desktop</li>
