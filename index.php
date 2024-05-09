@@ -28,6 +28,28 @@ $accessories = Prod::create('/accessory_db.json', 'Accessories');
 
 <main id="app">
 
+    <!-- filter section -->
+    <section>
+        <div class="filter-container d-flex ">
+            <a href="#" class="filter position-relative ">
+                <h2>Cani</h2>
+                <img src="https://www.moby-dick.it/foto/categorie/700/1_al.png" alt="Immagine cani">
+            </a>
+            <a href="#" class="filter position-relative ">
+                <h2>Gatti</h2>
+                <img src="https://www.moby-dick.it/foto/categorie/700/3_al.png" alt="Immagine cani">
+            </a>
+            <a href="#" class="filter position-relative ">
+                <h2>Pesci</h2>
+                <img src="https://www.worldanimalprotection.ca/sites/default/files/styles/600x400/public/media/shutterstock_426651172.jpg?h=17f22bde&itok=AfxiJQvB" alt="Immagine cani">
+            </a>
+            <a href="#" class="filter position-relative ">
+                <h2>Uccelli</h2>
+                <img src="https://t4.ftcdn.net/jpg/05/65/36/03/360_F_565360370_LrWWCTxczrmwqpsPYPljiFyE4gFqpecr.jpg" alt="Immagine cani">
+            </a>
+        </div>
+    </section>
+
     <!-- food section -->
     <section>
         <div class="container">

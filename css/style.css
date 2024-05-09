@@ -106,6 +106,10 @@ main#app {
 main#app section {
   padding: 100px 0;
 }
+main#app section:first-child {
+  padding: 20px 0;
+  margin-bottom: -30px;
+}
 main#app section h2 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -118,6 +122,42 @@ main#app section a {
   width: calc(100% / 4 - 20px);
   margin: 0 10px;
   margin-bottom: 20px;
+}
+main#app section .filter-container a.filter {
+  display: block;
+  color: white;
+  width: calc(100% / 4 - 40px);
+  height: 230px;
+  margin: 0 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.171);
+}
+main#app section .filter-container a.filter:hover h2 {
+  color: black;
+  transition-duration: 0.3s;
+  text-shadow: none;
+}
+main#app section .filter-container a.filter:hover img {
+  filter: opacity(0.4);
+  transition-duration: 0.3s;
+}
+main#app section .filter-container a.filter h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  z-index: 1;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+}
+main#app section .filter-container a.filter img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 main#app section .card {
   background-color: rgba(255, 255, 255, 0);
