@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "name": "Delizie di Pollo e Manzo",
+    "description": "Mangime completo per cani con pollo e manzo freschi.",
+    "price": 12.99,
+    "image": "https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1700323290/products/pim/5900951253461_CesarDelizieGiornoPolloVerdure100gr_12745_IT/cesar-cibo-umido-in-salsa-per-cani-con-pollo-e-verdure",
+    "category": "Cane",
+    "ingredients": ["Pollo", "Manzo", "Riso", "Verdure"],
+    "weight": "1 kg",
+    "format": "Scatola"
+  },
+  {
+    "id": 2,
+    "name": "Tonno in Gelatina",
+    "description": "Alimento umido per gatti con tonno fresco in gelatina.",
+    "price": 8.49,
+    "image": "https://media.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1700323567/products/pim/3065890122222_ShebaCreazioniSalsaTac_PolloVerdure85gr_8367_IT/sheba-cibo-umido-per-gatti-in-salsa-con-tacchino-pollo-e-verdure-creazioni-speciali",
+    "category": "Gatto",
+    "ingredients": ["Tonno", "Gelatina", "Acqua"],
+    "weight": "200 g",
+    "format": "Bustina"
+  },
+  {
+    "id": 3,
+    "name": "Granuli Nutrienti per Pappagalli",
+    "description": "Alimento completo per pappagalli, ricco di vitamine e minerali.",
+    "price": 15.79,
+    "image": "https://www.misterdingo.it/39049-large_default/versele-laga-mangime-loro-parque-pappagalli-africani-african-parrot-1-kg.jpg",
+    "category": "Uccelli",
+    "ingredients": ["Semi", "Frutta secca", "Vitamine", "Minerali"],
+    "weight": "500 g",
+    "format": "Sacchetto"
+  },
+  {
+    "id": 4,
+    "name": "Pellets per Pesci Rossi",
+    "description": "Cibo in pellet per pesci rossi, favorisce una crescita sana e brillantezza dei colori.",
+    "price": 6.99,
+    "image": "https://jardiboutique.com/55261-home_default/goldfish-mini-pellets-42-g-100-ml-alimento-completo-per-giovani-pesci-rossi.jpg",
+    "category": "Pesci",
+    "ingredients": ["Farina di pesce", "Cereali", "Vitamine"],
+    "weight": "250 g",
+    "format": "Barattolo"
+  },
+  {
+    "id": 5,
+    "name": "Biscotti alla Menta per Cani",
+    "description": "Snack per cani a base di menta, aiuta a mantenere il cattivo alito sotto controllo.",
+    "price": 4.99,
+    "image": "",
+    "category": "Cane",
+    "ingredients": ["Farina di grano", "Menta", "Olio di semi"],
+    "weight": "300 g",
+    "format": "Busta"
+  },
+  {
+    "id": 6,
+    "name": "Patè di Pollo per Gatti",
+    "description": "Alimento umido per gatti con patè di pollo, piacevole al palato.",
+    "price": 7.29,
+    "image": "https://www.b2x.it/rest/images/2023/07/13/1464805.jpg?imageFormat=@1x",
+    "category": "Gatto",
+    "ingredients": ["Pollo", "Brodo", "Farina di mais"],
+    "weight": "100 g",
+    "format": "Barattolo"
+  },
+  {
+    "id": 7,
+    "name": "Mix di Semi per Canarini",
+    "description": "Selezione di semi per canarini, ricchi di nutrienti essenziali.",
+    "price": 9.99,
+    "image": "https://m.media-amazon.com/images/I/51k+qBaRxOL._AC_UF894,1000_QL80_.jpg",
+    "category": "Uccelli",
+    "ingredients": ["Semi di girasole", "Semi di canapa", "Semi di miglio"],
+    "weight": "400 g",
+    "format": "Sacchetto"
+  },
+  {
+    "id": 8,
+    "name": "Fiocchi di Alghe per Pesci Tropicali",
+    "description": "Alimento in fiocchi arricchito con alghe, ideale per pesci tropicali.",
+    "price": 11.49,
+    "image": "https://i0.wp.com/fratellifarella.it/wp-content/uploads/2020/01/Bonus-fiocchi-per-pesci-rossi.jpg?fit=1200%2C1200&ssl=1",
+    "category": "Pesci",
+    "ingredients": ["Pesce", "Alghe", "Cereali"],
+    "weight": "150 g",
+    "format": "Scatola"
+  },
+  {
+    "id": 9,
+    "name": "Stuzzichini di Anatra per Cani",
+    "description": "Bocconcini appetitosi per cani con gusto di anatra.",
+    "price": 6.79,
+    "image": "https://www.amicipappagalli.it/wp-content/uploads/2015/01/treats-snacks-dadini-cavallo-80g-camon-ae733.jpg",
+    "category": "Cane",
+    "ingredients": ["Anatra", "Patate", "Glicerina"],
+    "weight": "250 g",
+    "format": "Busta"
+  },
+  {
+    "id": 10,
+    "name": "Salsa al Salmone per Gatti",
+    "description": "Salsa al salmone per rendere più gustosi i pasti dei gatti.",
+    "price": 5.49,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzQQNF9ABHSjUJbvHKohTNKQn4UFmqU8JEd0aR_Q4gCg&s",
+    "category": "Gatto",
+    "ingredients": ["Salmone", "Brodo", "Farina di riso"],
+    "weight": "80 g",
+    "format": "Bustina"
+  },
+  {
+    "id": 11,
+    "name": "Pastoncini ai Semi per Canarini",
+    "description": "Snack croccanti ai semi per canarini, ricchi di proteine.",
+    "price": 3.99,
+    "image": "https://action.com/hostedassets/CMSArticleImages/35/63/2503658_4008239345271-111_01.png",
+    "category": "Uccelli",
+    "ingredients": ["Semi di girasole", "Semi di lino", "Miele"],
+    "weight": "200 g",
+    "format": "Busta"
+  },
+  {
+    "id": 12,
+    "name": "Pellet per Pesci d'Acqua Dolce",
+    "description": "Cibo in pellet per pesci d'acqua dolce, nutriente e facilmente digeribile.",
+    "price": 7.99,
+    "image": "https://m.media-amazon.com/images/I/81dfK7mtOyL._AC_UF1000,1000_QL80_.jpg",
+    "Disponibilità": 38,
+    "category": "Pesci",
+    "ingredients": ["Farina di pesce", "Cereali", "Vitamine"],
+    "weight": "300 g",
+    "format": "Barattolo"
+  }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Palla per Cani Resistente",
+        "description": "Palla resistente per cani ideale per giochi interattivi e per favorire l'esercizio fisico.",
+        "price": 12.99,
+        "image": "https://m.media-amazon.com/images/I/61i3OJ4EycL._AC_UF894,1000_QL80_.jpg",
+        "category": "Cane",
+        "material": "Gomma",
+        "size": "Diametro 10 cm"
+    },
+    {
+        "id": 2,
+        "name": "Palla con Sonagli per Gatti",
+        "description": "Palla con sonagli per gatti per stimolare l'istinto di caccia e l'attività fisica.",
+        "price": 8.49,
+        "image": "https://m.media-amazon.com/images/I/51WRXFaqjmL._AC_.jpg",
+        "category": "Gatto",
+        "material": "Plastica",
+        "size": "Diametro 5 cm"
+    },
+    {
+        "id": 3,
+        "name": "Altalena per Uccelli",
+        "description": "Altalena per uccelli ideale per stimolare l'esercizio e il divertimento nel loro habitat.",
+        "price": 15.79,
+        "image": "https://shop.hobbyuccelli.it/452-large_default/altalena-per-gabbie.jpg",
+        "category": "Uccelli",
+        "material": "Legno e corda",
+        "size": "Larghezza 10 cm, Lunghezza 15 cm"
+    },
+    {
+        "id": 4,
+        "name": "Castello Sommerso per Pesci Rossi",
+        "description": "Castello sommerso per pesci rossi, offre un rifugio divertente e un'area di esplorazione.",
+        "price": 6.99,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH_2JRXRyi6U-x4Y_Hzs-FISK3qETmrdqxh_6O_ZngMw&s",
+        "category": "Pesci",
+        "material": "Resina",
+        "size": "Altezza 10 cm, Lunghezza 15 cm"
+    },
+    {
+        "id": 5,
+        "name": "Tiragraffi a Torre per Gatti",
+        "description": "Tiragraffi a torre per gatti, offre un posto divertente per arrampicarsi e affilare le unghie.",
+        "price": 44.99,
+        "image": "https://i.ebayimg.com/images/g/~vQAAOSwcORkwea6/s-l1600.jpg",
+        "category": "Gatto",
+        "material": "Sisal e legno",
+        "size": "Altezza 120 cm"
+    },
+    {
+        "id": 6,
+        "name": "Puzzle Interattivo per Cani",
+        "description": "Puzzle interattivo per cani, favorisce il pensiero critico e il divertimento.",
+        "price": 22.99,
+        "image": "https://m.media-amazon.com/images/I/71v9hW3OLKL.jpg",
+        "category": "Cane",
+        "material": "Plastica resistente",
+        "size": "Larghezza 25 cm, Lunghezza 25 cm"
+    },
+    {
+        "id": 7,
+        "name": "Nido per Uccelli Esotici",
+        "description": "Nido in vimini per uccelli esotici, offre un rifugio sicuro e confortevole per nidificare.",
+        "price": 9.99,
+        "image": "https://shop.hobbyuccelli.it/1271-large_default/nido-in-legno-per-uccelli-esotici.jpg",
+        "category": "Uccelli",
+        "material": "Vimini",
+        "size": "Diametro 15 cm, Altezza 20 cm"
+    },
+    {
+        "id": 8,
+        "name": "Giostra Galleggiante per Pesci Tropicali",
+        "description": "Giostra galleggiante per pesci tropicali, offre un divertimento unico in acquario.",
+        "price": 14.49,
+        "image": "https://m.media-amazon.com/images/I/71F-E3lpNKL._AC_UF894,1000_QL80_DpWeblab_.jpg",
+        "category": "Pesci",
+        "material": "Plastica non tossica",
+        "size": "Diametro 8 cm"
+    },
+    {
+        "id": 9,
+        "name": "Pallina Sonora per Canarini",
+        "description": "Pallina sonora per canarini, stimola l'attività fisica e l'interazione.",
+        "price": 3.99,
+        "image": "https://static.zoomalia.com/prod_img/61828/xl_6695c04925674920eb58467fb52ce4ef7281571145387.jpg",
+        "category": "Uccelli",
+        "material": "Plastica colorata",
+        "size": "Diametro 3 cm"
+    },
+    {
+        "id": 10,
+        "name": "Giostra Galleggiante per Pesci Rossi",
+        "description": "Giostra galleggiante per pesci rossi, offre un divertimento unico in acquario.",
+        "price": 8.99,
+        "image": "https://m.media-amazon.com/images/I/41gJv6aZivL._AC_.jpg",
+        "category": "Pesci",
+        "material": "Plastica non tossica",
+        "size": "Diametro 5 cm"
+    }
+]

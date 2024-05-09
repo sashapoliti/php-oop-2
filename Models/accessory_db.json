@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Cuccia Morbida",
+      "description": "Cuccia confortevole per il tuo cane o gatto.",
+      "price": 29.99,
+      "image": "https://www.saluteinerba.com/wp-content/uploads/2021/06/luxury_pet_side.jpg",
+      "category": "Cane",
+      "materials": ["Tessuto", "Imbottitura"],
+      "weight": "1.5 kg"
+    },
+    {
+      "id": 2,
+      "name": "Collare Riflettente",
+      "description": "Collare regolabile con inserti riflettenti per massima visibilità durante le passeggiate notturne.",
+      "price": 12.99,
+      "image": "https://www.thekill.it/11577-large_default/collare-riflettente-regolabile-da-25-a-35-cm.jpg",
+      "category": "Cane",
+      "materials": ["Nylon", "Fibra riflettente"],
+      "weight": "100 g"
+    },
+    {
+      "id": 3,
+      "name": "Pallina Rimbalzante",
+      "description": "Pallina gommata che rimbalza in modo imprevedibile per divertire il tuo cane.",
+      "price": 5.99,
+      "image": "https://m.media-amazon.com/images/I/71jPi1AESOL._AC_UF894,1000_QL80_DpWeblab_.jpg",
+      "category": "Cane",
+      "materials": ["Gomma"],
+      "weight": "50 g"
+    },
+    {
+      "id": 4,
+      "name": "Grattino per Gatti",
+      "description": "Grattino con erba gatta per mantenere le unghie del tuo gatto sane e tagliate.",
+      "price": 8.99,
+      "image": "https://m.media-amazon.com/images/I/71AvbGKoyoL._AC_UF894,1000_QL80_.jpg",
+      "category": "Gatto",
+      "materials": ["Plastica", "Erba gatta"],
+      "weight": "80 g"
+    },
+    {
+      "id": 5,
+      "name": "Palla Sonora per Gatti",
+      "description": "Palla con campanella interna per stimolare il gioco del tuo gatto.",
+      "price": 3.99,
+      "image": "https://m.media-amazon.com/images/I/61WBIljHMnL.jpg",
+      "category": "Gatto",
+      "materials": ["Plastica", "Campanella"],
+      "weight": "30 g"
+    },
+    {
+      "id": 6,
+      "name": "Becco per Uccelli",
+      "description": "Becco in plastica resistente per fornire cibo ai tuoi uccelli da compagnia.",
+      "price": 2.49,
+      "image": "https://m.media-amazon.com/images/I/41QmPJyd6cL._AC_UF894,1000_QL80_.jpg",
+      "category": "Uccelli",
+      "materials": ["Plastica"],
+      "weight": "20 g"
+    },
+    {
+      "id": 7,
+      "name": "Pietra Bollicine per Pesci",
+      "description": "Pietra porosa per aerare l'acqua dell'acquario e favorire il benessere dei pesci.",
+      "price": 4.49,
+      "image": "https://www.ibs.it/images/8022044289151_0_0_536_0_75.jpg",
+      "category": "Pesci",
+      "materials": ["Pietra porosa"],
+      "weight": "150 g"
+    },
+    {
+      "id": 8,
+      "name": "Guinzaglio Regolabile",
+      "description": "Guinzaglio resistente e regolabile per portare a spasso il tuo cane in tutta sicurezza.",
+      "price": 15.99,
+      "image": "https://animalmania.it/vendita/10425-large_default/guinzaglio-cane-regolabile-nylon-curli-rosso.jpg",
+      "category": "Cane",
+      "materials": ["Nylon", "Metallo"],
+      "weight": "200 g"
+    },
+    {
+      "id": 9,
+      "name": "Lettiera Igienica per Gatti",
+      "description": "Lettiera per gatti con grani assorbenti per mantenere la lettiera pulita e priva di odori.",
+      "price": 17.49,
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ1jFwpiDwnKXSvV7rsLU-sc8VHjhwkQ-W06AKUg0RVCnR4lKPTHXvbSWNRYDaoKM1XN_mTy4aityMrQsiiHS6Pt75bKlWzsnrYr5cepqxKnoKIauctzOv1UA",
+      "category": "Gatto",
+      "materials": ["Plastica", "Grani assorbenti"],
+      "weight": "1 kg"
+    },
+    {
+      "id": 10,
+      "name": "Bevitore a Sifone per Pesci",
+      "description": "Bevitore a sifone per facilitare il cambio dell'acqua nell'acquario.",
+      "price": 9.99,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFy3ir1u1ug43Br5ijpm8pVQ4GdNGcbs8ccS9mnZMLQw&s",
+      "category": "Pesci",
+      "materials": ["Plastica", "Tubo flessibile"],
+      "weight": "120 g"
+    },
+    {
+      "id": 11,
+      "name": "Gabbia per Uccelli",
+      "description": "Gabbia spaziosa con accessori per il comfort dei tuoi uccelli.",
+      "price": 49.99,
+      "image": "https://arcaplanet.vtexassets.com/arquivos/ids/265411/gabbia-per-uccelli-bogota1.jpg?v=637727472933130000",
+      "category": "Uccelli",
+      "materials": ["Metallo", "Plastica"],
+      "weight": "3 kg"
+    },
+    {
+      "id": 12,
+      "name": "Osso in Gomma per Cuccioli",
+      "description": "Osso in gomma per alleviare il fastidio della dentizione nei cuccioli di cane.",
+      "price": 6.49,
+      "image": "https://www.naturepetshop.it/wp-content/uploads/osso-in-gomma-naturale-non-trattata.jpg",
+      "category": "Cane",
+      "materials": ["Gomma"],
+      "weight": "70 g"
+    }
+  ]
+  

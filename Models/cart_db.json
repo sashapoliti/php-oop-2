@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Delizie di Pollo e Manzo",
+        "description": "Mangime completo per cani con pollo e manzo freschi.",
+        "price": 12.9900000000000002131628207280300557613372802734375,
+        "image": "https:\/\/media.dm-static.com\/images\/f_auto,q_auto,c_fit,h_440,w_500\/v1700323290\/products\/pim\/5900951253461_CesarDelizieGiornoPolloVerdure100gr_12745_IT\/cesar-cibo-umido-in-salsa-per-cani-con-pollo-e-verdure",
+        "category": "Cane",
+        "ingredients": [
+            "Pollo",
+            "Manzo",
+            "Riso",
+            "Verdure"
+        ],
+        "weight": "1 kg",
+        "format": "Scatola"
+    },
+    {
+        "id": 1,
+        "name": "Delizie di Pollo e Manzo",
+        "description": "Mangime completo per cani con pollo e manzo freschi.",
+        "price": 12.9900000000000002131628207280300557613372802734375,
+        "image": "https:\/\/media.dm-static.com\/images\/f_auto,q_auto,c_fit,h_440,w_500\/v1700323290\/products\/pim\/5900951253461_CesarDelizieGiornoPolloVerdure100gr_12745_IT\/cesar-cibo-umido-in-salsa-per-cani-con-pollo-e-verdure",
+        "category": "Cane",
+        "ingredients": [
+            "Pollo",
+            "Manzo",
+            "Riso",
+            "Verdure"
+        ],
+        "weight": "1 kg",
+        "format": "Scatola"
+    },
+    {
+        "id": 1,
+        "name": "Delizie di Pollo e Manzo",
+        "description": "Mangime completo per cani con pollo e manzo freschi.",
+        "price": 12.9900000000000002131628207280300557613372802734375,
+        "image": "https:\/\/media.dm-static.com\/images\/f_auto,q_auto,c_fit,h_440,w_500\/v1700323290\/products\/pim\/5900951253461_CesarDelizieGiornoPolloVerdure100gr_12745_IT\/cesar-cibo-umido-in-salsa-per-cani-con-pollo-e-verdure",
+        "category": "Cane",
+        "ingredients": [
+            "Pollo",
+            "Manzo",
+            "Riso",
+            "Verdure"
+        ],
+        "weight": "1 kg",
+        "format": "Scatola"
+    }
+]

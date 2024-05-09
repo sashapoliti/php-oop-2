@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Gatto",
+        "icon": "fa-solid fa-cat"
+    },
+    
+    {
+        "name": "Cane",
+        "icon": "fa-solid fa-dog"
+    },
+    {
+        "name": "Pesci",
+        "icon": "fa-solid fa-fish"
+    },
+    {
+        "name": "Uccelli",
+        "icon": "fa-solid fa-kiwi-bird"
+    }
+    
+]

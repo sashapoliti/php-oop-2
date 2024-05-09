@@ -1,0 +1,86 @@
+<mxfile host="65bd71144e">
+    <diagram id="0DfVgZLiSyY7PZttRIFc" name="Page-1">
+        <mxGraphModel dx="746" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;b style=&quot;font-style: italic;&quot;&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="50" width="510" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="FOOD&lt;br&gt;ingredients &lt;b&gt;&lt;i&gt;string&lt;/i&gt;&lt;/b&gt;&lt;br&gt;weight&lt;b&gt; &lt;i style=&quot;&quot;&gt;float&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="320" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="GAMES&lt;br&gt;material &lt;b&gt;&lt;i&gt;string&lt;/i&gt;&lt;/b&gt;&lt;br&gt;size&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="320" width="170" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="ACCESSORIES&lt;br&gt;material&amp;nbsp;&lt;b&gt;&lt;i&gt;string&lt;/i&gt;&lt;/b&gt;&lt;br&gt;size&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="316.25" width="160" height="93.75" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="CLASSI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="10" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="CATEGORY&lt;br&gt;specie &lt;b&gt;&lt;i&gt;string&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="100" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="ISTANZE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="10" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="CANE" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="170" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="GATTO" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="190" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="UCCELLI" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="210" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="PESCI" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="230" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="id&amp;nbsp;&lt;i&gt;&lt;b&gt;integers&lt;/b&gt;&lt;/i&gt;&lt;br&gt;name&amp;nbsp;&lt;i&gt;&lt;b&gt;string&lt;/b&gt;&lt;/i&gt;&lt;br&gt;description&amp;nbsp;&lt;i&gt;&lt;b&gt;string&lt;/b&gt;&lt;/i&gt;&lt;br&gt;price&amp;nbsp;&lt;i&gt;&lt;b&gt;floating&lt;/b&gt;&lt;br&gt;&lt;/i&gt;img&amp;nbsp;&lt;b style=&quot;font-style: italic;&quot;&gt;string&lt;br&gt;&amp;nbsp;&lt;/b&gt;category&amp;nbsp;&lt;b style=&quot;font-style: italic;&quot;&gt;category&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=default;strokeWidth=4;perimeterSpacing=7;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="80" width="140" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;font color=&quot;#2f4393&quot;&gt;&lt;b&gt;create($fileName, $className)&lt;/b&gt;&lt;br&gt;legge il file json, lo trasforma in array associativo, con foreach crea nuove istanze della classe, ritorna un array di istanze della classe.&lt;br&gt;&lt;b&gt;PrintCard($item)&lt;br&gt;&lt;/b&gt;scompone un array associativo in variabii, include View/card.php&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=default;strokeWidth=4;perimeterSpacing=7;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="80" width="340" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="PRODOTTI" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;strokeWidth=4;fontColor=#ffffff;fillColor=#60a917;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
+                    <mxGeometry x="365" y="60" width="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="14" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="210" as="sourcePoint"/>
+                        <mxPoint x="250" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#FFFFFF;width=14;endSize=4.48;exitX=0.299;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="260" as="sourcePoint"/>
+                        <mxPoint x="270" y="278.44" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#FFFFFF;width=17.647058823529413;endSize=6.08235294117647;exitX=0.52;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="460" y="250" as="sourcePoint"/>
+                        <mxPoint x="260" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#FFFFFF;entryX=0.657;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.784;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="560" y="250" as="sourcePoint"/>
+                        <mxPoint x="620" y="328.44" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="&lt;font style=&quot;&quot; color=&quot;#2f4393&quot;&gt;&lt;b&gt;formatItem()&lt;/b&gt;&lt;br&gt;crea un array associativo con chiave=&amp;gt; valore uguali alla proprietà della classe&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="410" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;b style=&quot;color: rgb(47, 67, 147);&quot;&gt;formatItem()&lt;/b&gt;&lt;br style=&quot;color: rgb(47, 67, 147);&quot;&gt;&lt;span style=&quot;color: rgb(47, 67, 147);&quot;&gt;crea un array associativo con chiave=&amp;gt; valore uguali alla proprietà della classe&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="410" width="170" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="&lt;b style=&quot;color: rgb(47, 67, 147);&quot;&gt;formatItem()&lt;/b&gt;&lt;br style=&quot;color: rgb(47, 67, 147);&quot;&gt;&lt;span style=&quot;color: rgb(47, 67, 147);&quot;&gt;crea un array associativo con chiave=&amp;gt; valore uguali alla proprietà della classe&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#60a917;fontColor=#ffffff;strokeColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="410" width="160" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
