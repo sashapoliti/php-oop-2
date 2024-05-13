@@ -1,5 +1,4 @@
 <?php
-include __DIR__ . "/Views/header.php";
 include __DIR__ . "/Models/Foods.php";
 include __DIR__ . "/Models/Games.php";
 include __DIR__ . "/Models/Accessories.php";
@@ -7,6 +6,8 @@ include __DIR__ . "/Models/Accessories.php";
 $foods = Prod::create('/foods_db.json', 'Foods');
 $games = Prod::create('/games_db.json', 'Games');
 $accessories = Prod::create('/accessory_db.json', 'Accessories');
+
+include __DIR__ . "/header.php";
 ?>
 
 <div class="class3Hero d-flex align-items-center justify-content-center">
@@ -26,7 +27,7 @@ $accessories = Prod::create('/accessory_db.json', 'Accessories');
 </div>
 
 
-<main id="app">
+<main>
 
     <!-- filter section -->
     <section>

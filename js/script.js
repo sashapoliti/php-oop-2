@@ -9,19 +9,31 @@ createApp({
     };
   },
   methods: {
+    getData() {
+        axios.get('Models/server.php').then((res) => {
+            this.items = res.data;
+        });
+    },
     addToCart(id, path) {
-        console.log(id);
-        console.log(path);
         const data = new FormData();
         data.append('id', id);
         data.append('path', path);
         axios.post('Models/server.php', data).then((res) => {
             this.items = res.data;
-
-        });
-        
+        });        
     },
+    removeFromCart(id, name, index) {
+      const data = new FormData();
+      data.append('id', id);
+      data.append('name', name);
+      data.append('index', index);
+      axios.delete('Models/server.php', { data }).then((res) => {
+        this.items = res.data;
+      })
+    }
   },
   computed: {},
-  created() {},
+  created() {
+    this.getData();
+  },
 }).mount("#app");

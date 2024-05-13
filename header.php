@@ -15,19 +15,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link grity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- VueJS -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- Axios -->
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <!-- favicon -->
-    <link rel="icon" type="image/png" href="https://www.shutterstock.com/image-vector/handdrawn-cartoon-doodle-blue-letter-260nw-2391135651.jpg">
+    <link rel="icon" type="image/png"
+        href="https://www.shutterstock.com/image-vector/handdrawn-cartoon-doodle-blue-letter-260nw-2391135651.jpg">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" type="text/javascript" defer></script>
     <title>ZOOlean</title>
 
 </head>
 
-<body>
+<body id="app">
     <header>
         <nav class="h-100 d-flex justify-content-between">
             <ul class="d-flex">
@@ -61,9 +64,35 @@
                     <li><i class="fa-solid fa-heart  "></i></li>
                 </a>
 
-                <a href="#">
+                <a href="#" @click.prevent="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight">
                     <li><i class="fa-solid fa-cart-shopping"></i></li>
                 </a>
+                <!-- OFFCANVAS -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Il tuo carrello</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <!-- CARD CART -->
+                        <div v-for="(item, index) in items" class="card mb-3">
+                            <div class="row g-0">
+                                <div class="image-container col-md-4">
+                                    <img :src="item.image" class="img-fluid rounded-start" :alt="item.name">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body position-relative ">
+                                        <h5 class="card-title">{{ item.name }}</h5>
+                                        <p class="card-text">{{ item.price }}€</p>
+                                        <a href="#" @click.prevent="removeFromCart(item.id, item.name, index)" class="position-absolute bottom-0 end-0"><i class="fa-solid fa-xmark"></i> Remove</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </ul>
 
         </nav>

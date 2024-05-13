@@ -51,6 +51,40 @@ nav ul a li:hover {
   border-bottom: 3px solid #015cb8;
   transition-duration: 0.3s;
 }
+header .offcanvas-body .card {
+  height: 100px;
+  border: 0; 
+}
+header .offcanvas-body .image-container {
+  height: 100px;
+  overflow: hidden;
+}
+header .offcanvas-body .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+header .offcanvas-body .card h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+header .offcanvas-body .card p {
+  font-weight: 800;
+  color: #015cb8;
+}
+header .offcanvas-body .card .card-body a {
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: transparent;
+  border: 0;
+  color: #015cb8;
+}
+header .offcanvas-body .card .card-body a:hover {
+  text-decoration: underline;
+  color: rgb(206, 0, 0);
+transition-duration: 0.2s;
+}
 
 /* HERO */
 .class3Hero {
@@ -100,30 +134,30 @@ nav ul a li:hover {
 }
 
 /* MAIN */
-main#app {
+#app main {
   padding: 20px 0;
 }
-main#app section {
+#app main section {
   padding: 100px 0;
 }
-main#app section:first-child {
+#app main section:first-child {
   padding: 20px 0;
   margin-bottom: -30px;
 }
-main#app section h2 {
+#app main section h2 {
   font-size: 2.5rem;
   font-weight: 700;
 }
-main#app section.even {
+#app main section.even {
   color: black;
   background-color: #006dda;
 }
-main#app section a {
+#app main section a {
   width: calc(100% / 4 - 20px);
   margin: 0 10px;
   margin-bottom: 20px;
 }
-main#app section .filter-container a.filter {
+#app main section .filter-container a.filter {
   display: block;
   color: white;
   width: calc(100% / 4 - 40px);
@@ -133,16 +167,16 @@ main#app section .filter-container a.filter {
   overflow: hidden;
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.171);
 }
-main#app section .filter-container a.filter:hover h2 {
+#app main section .filter-container a.filter:hover h2 {
   color: black;
   transition-duration: 0.3s;
   text-shadow: none;
 }
-main#app section .filter-container a.filter:hover img {
+#app main section .filter-container a.filter:hover img {
   filter: opacity(0.4);
   transition-duration: 0.3s;
 }
-main#app section .filter-container a.filter h2 {
+#app main section .filter-container a.filter h2 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -151,7 +185,7 @@ main#app section .filter-container a.filter h2 {
   z-index: 1;
   text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
 }
-main#app section .filter-container a.filter img {
+#app main section .filter-container a.filter img {
   position: absolute;
   top: 0;
   left: 0;
@@ -159,46 +193,46 @@ main#app section .filter-container a.filter img {
   height: 100%;
   object-fit: cover;
 }
-main#app section .card {
+#app main section .card {
   background-color: rgba(255, 255, 255, 0);
   border: 0;
 }
-main#app section .card:hover {
+#app main section .card:hover {
   color: #015cb8;
   transition-duration: 0.3s;
 }
-main#app section .card:hover .container-img img {
+#app main section .card:hover .container-img img {
   filter: opacity(0.8);
   transition-duration: 0.3s;
 }
-main#app section .card .container-img {
+#app main section .card .container-img {
   background-color: white;
   height: 300px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0px 4px 5px 0px rgb(0 0 0 / 14%);
 }
-main#app section .card .container-img img {
+#app main section .card .container-img img {
   height: 100%;
   object-fit: contain;
   object-position: center;
 }
-main#app section .card .card-body h5.card-title {
+#app main section .card .card-body h5.card-title {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: -1px;
 }
-main#app section .card .card-body p.info {
+#app main section .card .card-body p.info {
   font-size: 0.8rem;
   font-style: italic;
   line-height: 1;
 }
-main#app section .card .card-body span.price {
+#app main section .card .card-body span.price {
   color: #015cb8;
   font-weight: 600;
 }
-main#app section.even .card .card-body span.price,
-main#app section.even .card .card-body {
+#app main section.even .card .card-body span.price,
+#app main section.even .card .card-body {
   color: white;
 }
 
